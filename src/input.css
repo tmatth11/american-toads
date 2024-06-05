@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    @apply bg-slate-200 p-3 my-3 rounded-md;
+}
+
+.sub-head {
+    @apply text-2xl sm:text-3xl text-center;
+}
+
+.source {
+    @apply block text-center;
+}
+
+.link {
+    @apply text-sky-500 hover:underline;
+}
+
+.content {
+    @apply text-base sm:text-lg mx-auto max-w-prose sm:max-w-3xl my-3 p-3;
+}
+
+.image-content {
+    @apply max-w-full w-[300px] h-[250px] rounded-lg mx-auto my-3;
+}
+
+.image-container {
+    @apply flex justify-center items-center my-3 gap-3 flex-col sm:flex-row;
+}
+
+.image-container img {
+    @apply max-w-full w-[300px] h-[250px] rounded-lg;
+}
